@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f11fb3fab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="healogo.jpg" width="250" height="50" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutpg.html">About</a></li>
+                <li><a href="servicespg.html">Services</a></li>
+                <li><a href="healarticles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://healthcare-bot-kkb57hzatvvsc.azurewebsites.net">Bot</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Click on 'Bot' for mental health screener
+        </marquee>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title ss">Our Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <p class="portf" style="text-align: center"><i class="fa-solid fa-notes-medical"></i></p>
+                    <p>Free Checkups </p>
+                    
+                </div>
+                <div class="work">
+                    <p class="portf" style="text-align: center"><i class="fa-solid fa-user-doctor"></i></p>
+                    <p>Expert Doctors</p>
+                </div>
+                <div class="work">
+                    <p class="portf" style="text-align: center"><i class="fa-solid fa-tablets"></i></p>
+                    <p>Medicines</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sreevathsav</p>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

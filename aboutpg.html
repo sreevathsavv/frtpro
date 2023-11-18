@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f11fb3fab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="healogo.jpg" width="250" height="50" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutpg.html">About</a></li>
+                <li><a href="servicespg.html">Services</a></li>
+                <li><a href="healarticles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://healthcare-bot-kkb57hzatvvsc.azurewebsites.net">Bot</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Click on 'Bot' for mental health screener
+        </marquee>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="abh.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p class="abme">
+                        Welcome to HealThee (Heal You), where we are dedicated to your well-being and committed to providing exceptional healthcare services. At the heart of our mission is a profound belief in the power of personalized care, cutting-edge technology, and compassionate support.
+                    </p>
+                    <h1 class="sub-title">Our Mission</h1>
+                    <p class="abme">
+Our mission is to empower individuals on their physical and mental health journey by delivering comprehensive, high-quality healthcare services. We strive to be a beacon of wellness, offering a range of resources to enhance your physical, mental, and emotional well-being.
+                    </p>
+                    <h1 class="sub-title">Why Choose Us</h1>
+                    <p class="abme">
+                        What sets HealThee apart is our unwavering dedication to a patient-centric approach. We prioritize your needs, aiming to create an environment where you feel heard, respected, and supported. Our experienced and caring healthcare professionals are committed to delivering excellence in all facets of your care, ensuring that you receive the highest quality medical services
+                    </p>
+                    <h1 class="sub-title">Our Committment</h1>
+                    <p class="abme">
+                        At HealThee, we are committed to compassion, excellence, and collaboration. Our goal is not only to provide medical services but to build lasting partnerships with our patients, empowering them to actively participate in their healthcare journey.
+                    </p>
+                    
+                    
+                   
+                   
+                    
+                </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sreevathsav</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+   
+       function opentab(tabname){
+           for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab")
+       }
+    </script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
