@@ -3,7 +3,7 @@ This is a healthcare web application developed as a part of the Future Ready Tal
 
 * Github Repository URL : https://github.com/sreevathsavv/frtpro 
 * Project Demo URL : https://happy-wave-0589ca100.4.azurestaticapps.net 
-* Project Demo Video URL : 
+* Project Demo Video URL : https://youtu.be/EO6GzfUEB8Q 
 ## ⚙️Azure Services used in this project
 
 - Azure Static Web App
